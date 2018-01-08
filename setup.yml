@@ -1,0 +1,12 @@
+---
+- name: Setup Workstation
+  hosts: all
+  become: false
+  gather_facts: yes
+
+  vars_files:
+    - vars/vars.yml
+
+  tasks:
+    - import_tasks: tasks/base.yml
+    - import_tasks: tasks/dev-tools.yml

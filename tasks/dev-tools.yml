@@ -1,0 +1,10 @@
+
+
+- name: install packages
+  win_chocolatey: name={{ item }} state=present
+  with_items:
+    - git
+    - atom
+    - jetbrainstoolbox
+    - visualstudio2015community
+    - postman
