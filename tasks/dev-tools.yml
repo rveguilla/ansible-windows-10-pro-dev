@@ -6,5 +6,17 @@
     - git
     - atom
     - jetbrainstoolbox
-    - visualstudio2015community
     - postman
+    - nvm
+    - jdk8
+    # - jdk9
+    - ant
+    - maven
+    - gradle
+    # - dbeaver-ee
+    - dotnetcore-sdk
+    - visualstudio2015community
+    - sql-server-management-studio
+    # - awscli
+    # - kubernetes-cli
+    # - gcloudsdk

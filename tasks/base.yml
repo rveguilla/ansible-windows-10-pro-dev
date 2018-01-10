@@ -5,3 +5,4 @@
   with_items:
     - firefox
     - googlechrome
+    - 7zip.install
