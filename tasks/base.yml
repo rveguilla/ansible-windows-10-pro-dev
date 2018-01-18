@@ -3,6 +3,8 @@
 - name: install packages
   win_chocolatey: name={{ item }} state=present
   with_items:
+    - chocolatey
     - firefox
     - googlechrome
     - 7zip.install
+    - lastpass

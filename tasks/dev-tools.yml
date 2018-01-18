@@ -14,6 +14,7 @@
     - maven
     - gradle
     # - dbeaver-ee
+    - mono
     - dotnetcore-sdk
     - visualstudio2015community
     - sql-server-management-studio
