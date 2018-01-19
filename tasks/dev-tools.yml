@@ -1,6 +1,4 @@
-
-
-- name: install packages
+- name: install basic dev tools
   win_chocolatey: name={{ item }} state=present
   with_items:
     - git
@@ -21,3 +19,12 @@
     # - awscli
     # - kubernetes-cli
     # - gcloudsdk
+
+- name: install .NET dev tools
+  win_chocolatey: name={{ item }} state=present
+  with_items:
+    - mono
+    - dotnetcore-sdk
+    - visualstudio2015community
+    - sql-server-management-studio
+  when: install_dotnet_tools == true
